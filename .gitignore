@@ -1,1 +1,14 @@
+# Local datasets
 /Data/
+
+# Generated model artifacts and checkpoints
+/Models/
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.pt
+*.pth
+*.joblib
+*.pkl

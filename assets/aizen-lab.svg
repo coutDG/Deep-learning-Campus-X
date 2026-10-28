@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Gagan — Data Science and MLOps</title>
+  <desc id="desc">An Aizen-inspired violet lab with a glowing orb and shattered mirror. Derive. Build. Deploy.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0810"/>
+      <stop offset=".55" stop-color="#171025"/>
+      <stop offset="1" stop-color="#0D0917"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#9F65F5" stop-opacity=".4"/>
+      <stop offset=".5" stop-color="#7C4DFF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb" cx=".36" cy=".28" r=".72">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".2" stop-color="#F1DCFF"/>
+      <stop offset=".5" stop-color="#C084FC"/>
+      <stop offset=".8" stop-color="#713FC2"/>
+      <stop offset="1" stop-color="#271638"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="760" y1="50" x2="1100" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9D5FF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#A277E8" stop-opacity=".02"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B388FF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#B388FF" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#B388FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#B388FF" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: Inter, 'Segoe UI', Arial, sans-serif; }
+      .shard-a { animation: drift-a 9s ease-in-out infinite; }
+      .shard-b { animation: drift-b 11s ease-in-out infinite; }
+      .orb-aura { animation: breathe 6s ease-in-out infinite; }
+      .signal { animation: signal 5s ease-in-out infinite; }
+      @keyframes drift-a { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+      @keyframes drift-b { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+      @keyframes breathe { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      @keyframes signal { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .shard-a, .shard-b, .orb-aura, .signal { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="388" rx="18" fill="url(#background)" stroke="#392653"/>
+  <rect x="1" y="1" width="1198" height="388" rx="18" fill="url(#grid)"/>
+  <path d="M30 1H1170" stroke="url(#edge)"/>
+  <ellipse class="orb-aura" cx="956" cy="183" rx="240" ry="190" fill="url(#aura)"/>
+
+  <!-- The lab identity remains readable even when animations are disabled. -->
+  <g class="mono" font-size="12" letter-spacing="2.5">
+    <circle class="signal" cx="57" cy="50" r="3.5" fill="#C4B5FD"/>
+    <text x="72" y="54" fill="#BBA6D5">COUTDG / THE EXPERIMENT LAB</text>
+    <text x="1150" y="54" text-anchor="end" fill="#877294">01 — KYŌKA SUIGETSU</text>
+  </g>
+
+  <g class="sans">
+    <text x="52" y="153" fill="#F8F3FF" font-size="78" font-weight="750" letter-spacing="3">GAGAN<tspan fill="#B388FF">.</tspan></text>
+    <text x="56" y="193" fill="#C4AEDC" font-size="17" letter-spacing="5">DATA SCIENCE / MLOPS</text>
+    <text x="55" y="249" fill="#F1E9FA" font-size="28" font-weight="600" letter-spacing="1">DERIVE. BUILD. DEPLOY.</text>
+    <text x="56" y="279" fill="#9E8DAE" font-size="15">Understand the system. Then shape its evolution.</text>
+  </g>
+
+  <!-- Shattered mirror geometry and a Hōgyoku-inspired core. -->
+  <g stroke="#C4A1F7" stroke-opacity=".5" stroke-width=".8" fill="url(#glass)">
+    <path class="shard-a" d="M846 80L922 111L856 157Z"/>
+    <path class="shard-b" d="M1010 63L1046 121L985 104Z"/>
+    <path class="shard-a" d="M1052 135L1133 116L1094 196Z"/>
+    <path class="shard-b" d="M1091 216L1108 278L1025 256Z"/>
+    <path class="shard-a" d="M979 265L1022 307L941 291Z"/>
+    <path class="shard-b" d="M851 213L887 264L814 285Z"/>
+    <path class="shard-a" d="M796 121L828 169L795 192Z"/>
+  </g>
+
+  <g stroke="#B388FF" stroke-opacity=".18">
+    <circle cx="956" cy="183" r="83"/>
+    <circle cx="956" cy="183" r="117" stroke-dasharray="2 10"/>
+    <path d="M956 60V96M956 270V306M833 183H869M1043 183H1079"/>
+    <path d="M895 122L917 144M995 222L1017 244M895 244L917 222M995 144L1017 122"/>
+  </g>
+
+  <circle class="orb-aura" cx="956" cy="183" r="46" fill="#B388FF" opacity=".6" filter="url(#glow)"/>
+  <circle cx="956" cy="183" r="32" fill="url(#orb)" stroke="#E9D5FF" stroke-opacity=".6"/>
+  <path d="M943 173C945 167 950 163 956 163" stroke="#FFFFFF" stroke-opacity=".85" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="1129" cy="91" r="2" fill="#DAC1FF"/>
+  <circle class="signal" cx="820" cy="70" r="1.8" fill="#DAC1FF"/>
+  <circle cx="1080" cy="306" r="1.5" fill="#DAC1FF"/>
+  <text x="956" y="333" text-anchor="middle" class="mono" fill="#9F88B9" font-size="10" letter-spacing="3">BEYOND THE ILLUSION</text>
+
+  <path d="M54 315H660" stroke="#392653"/>
+  <g class="mono" font-size="11" letter-spacing="1">
+    <text x="56" y="348" fill="#D0B9EA">DATA</text>
+    <path d="M104 344H142M137 340L142 344L137 348" stroke="#7D5E9F"/>
+    <text x="157" y="348" fill="#D0B9EA">MODELS</text>
+    <path d="M221 344H259M254 340L259 344L254 348" stroke="#7D5E9F"/>
+    <text x="274" y="348" fill="#D0B9EA">PIPELINES</text>
+    <path d="M358 344H396M391 340L396 344L391 348" stroke="#7D5E9F"/>
+    <text x="411" y="348" fill="#D0B9EA">PRODUCTION</text>
+  </g>
+</svg>
